@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Amethyst Minecraft Panel</title>
+</head>
+<body style="margin:0; font-family:Arial; background:#12081f; color:#e9ddff; display:flex; align-items:center; justify-content:center; height:100vh;">
+
+
+<div style="background:#1b0f2e; padding:30px; border-radius:14px; width:420px; box-shadow:0 0 30px #6b3fa0; text-align:center;">
+
+
+<h1 style="margin-top:0; color:#c9a6ff;">💜 Amethyst Server Panel</h1>
+
+
+<p><strong>IP:</strong> <span id="ip">play.cubecraft.net</span></p>
+
+
+<p id="status">Checking status...</p>
+<p id="players"></p>
+<p id="version"></p>
+<p id="motd"></p>
+<p id="uptime"></p>
+
+
+<canvas id="graph" width="360" height="120" style="background:#0d0618; border-radius:8px; margin:10px 0;"></canvas>
+
+
+<ul id="playerList" style="list-style:none; padding:0; max-height:120px; overflow:auto;"></ul>
+
+
+<div style="margin-top:15px;">
+<button id="refresh" style="padding:8px 14px; background:#7a4fd8; color:white; border:none; border-radius:6px; cursor:pointer;">Refresh</button>
+<button id="copyIp" style="padding:8px 14px; background:#4f2c91; color:white; border:none; border-radius:6px; cursor:pointer;">Copy IP</button>
+</div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
